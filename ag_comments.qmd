@@ -1,0 +1,21 @@
+---
+title: "ag Comments"
+format: html
+editor: visual
+bibliography: reproducibility.bib
+---
+
+## Kommentarer
+
+- Jeg foreslår noen endringer for hhv. `lang:` og `abstract:` i YAML header.
+- Når det gjelder reproduserbarhet/replikerbarhet er også personvern et hinder. Det er mye data som ikke kan deles pga. krav om konfidensialitet.
+- Du bytter fint mellom «in-text» (narrativ) sitering og «end-of-sentence» sitering.
+- Ser du har valgt å skrive i en personlig stil, «Jeg mener …». Ok, men vær oppmerksom på at innen økonomifaget er det mer vanlig å skrive i en upersonlig 3. person stil. F.eks: 
+
+«Det har blitt hevdet at det er for mye å kreve at alle forskningsstudier skal replikeres, fordi dette krever mye tid og ressurser [@sikorski2024].»
+
+«Quarto kan kanskje bidra til bedre reproduserbarhet fordi tekst, kilder, kode og resultater kan samles på samme sted. Når dokumentet rendres, blir innholdet laget ut fra .qmd-filen, noe som kan gjøre arbeidet lettere å følge og kontrollere. Dette kan gjøre det enklere for andre å forstå hvordan analysen er gjennomført (Figueiredo et al., 2022).»
+
+- Fine «commit-messages».
+- Et bra mini-paper. Ser ut til at du er oppe og går mht. programvaren.
+- Godkjent

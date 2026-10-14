@@ -6,7 +6,11 @@ date-format: "dddd D MMM, YYYY"
 csl: apa7.csl
 # nynorsk
 #lang: no-NN
-lang: no-NB
+#lang: no-NB
+# Ser ut til at besvergelsene for å få norsk
+# språkdrakt nå er hhv. nn for nynorsk og nb for
+# bokmål
+lang: nb
 # for typst with bibtex
 citeproc: true
 papersize: a4
@@ -17,7 +21,11 @@ format:
 #  pdf:
 #    papersize: a4
 bibliography: reproducibility.bib
-abstract: Denne artikkelen diskuterer om reproduserbarhet alene er nok for å sikre robust og pålitelig forskning. Jeg kommer fram til at reproduserbarhet er viktig, men at det bør kombineres med blant annet replikasjon, robusthet og åpenhet om data og metoder. Artikkelen diskuterer også hvordan Quarto kan bidra til reproduserbarhet ved å gjøre forskningsprosessen lettere å dokumentere og følge.
+# Din løsning for abstract virker, men så vidt jeg har forstått er
+# den korrekte måten å gjøre dette på å bruke en '|' etter abstract og
+# så ett innrykk (en tab) før teksten
+abstract: |
+  Denne artikkelen diskuterer om reproduserbarhet alene er nok for å sikre robust og pålitelig forskning. Jeg kommer fram til at reproduserbarhet er viktig, men at det bør kombineres med blant annet replikasjon, robusthet og åpenhet om data og metoder. Artikkelen diskuterer også hvordan Quarto kan bidra til reproduserbarhet ved å gjøre forskningsprosessen lettere å dokumentere og følge.
 ---
 
 ## Introduksjon
